@@ -6,33 +6,47 @@ Imagine que a página principal (home-page) mostre um visão dos vários itens q
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Decreva brevemente seu projeto
+- Nome: Alexandre Soutelo Vilela
+- Matricula: 917073
+- Decreva brevemente seu projeto: Portal de notícias desenvolvido com HTML, CSS e JavaScript. As notícias são exibidas dinamicamente na página inicial e possuem uma página de detalhes com informações completas sobre cada notícia.
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - HOME-PAGE - AQUI >>
-
-<<  COLOQUE A IMAGEM - TELA DE DETALHES - AQUI >>
+![Home-page](public/img/homepage.png)
+![Detalhes](public/img/detalhes.png)
 
 ## Dados em JSON
 Inclua aqui a estrutura de dados definida por você para o projeto com pelo menos dois exemplo de dados.
 
 ```json
 {
-  "animes": [
+  "noticias": [
     {
       "id": 1,
-      "nome": "Naruto",
-      "genero": "Ação",
-      "destaque": true
+      "titulo": "Praça é revitalizada",
+      "descricao": "Espaço recebeu melhorias.",
+      "conteudo": "A praça central da cidade passou por reformas e agora conta com nova iluminação e áreas de lazer.",
+      "categoria": "Cidade",
+      "autor": "Maria Silva",
+      "data": "01/04/2025"
     },
     {
       "id": 2,
-      "nome": "Fullmetal Alchemist",
-      "genero": "Aventura",
-      "destaque": false
+      "titulo": "Feira de tecnologia",
+      "descricao": "Evento reúne estudantes.",
+      "conteudo": "A feira apresentou projetos de inovação desenvolvidos por alunos de escolas e universidades.",
+      "categoria": "Tecnologia",
+      "autor": "João Souza",
+      "data": "02/04/2025"
+    },
+    {
+      "id": 3,
+      "titulo": "Festival de música",
+      "descricao": "Shows atraem público.",
+      "conteudo": "O festival contou com apresentações de artistas locais e grande participação da comunidade.",
+      "categoria": "Cultura",
+      "autor": "Ana Costa",
+      "data": "03/04/2025"
     }
   ]
 }
